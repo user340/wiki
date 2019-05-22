@@ -9,7 +9,7 @@ CC0
 ```vim
 Plugin 'vimwiki/vimwiki'
 let g:vimwiki_ext2syntax = {'.md': 'markdown', '.markdown': 'markdown', '.mdown': 'markdown'}
-let g:vimwiki_list = [{'path': '~/src/github.com/user340/vimwiki/', 'syntax': 'markdown', 'ext': 'md'}]
+let g:vimwiki_list = [{'path': '~/src/github.com/user340/wiki/', 'syntax': 'markdown', 'ext': 'md'}]
 ```
 
 `git pull` in your `$HOME/src/github.com/user340` directory.
