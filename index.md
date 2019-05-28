@@ -17,17 +17,15 @@
 
 ### Docker
 
-- [Dockerをroot権限なしで動かす](without_root)
-- [セキュアなDockerコンテナを作る](security_for_docker)
+- [Dockerをroot権限なしで動かす](docker/without_root)
+- [セキュアなDockerコンテナを作る](docker/security_for_docker)
 
 ## Git
 
 - [リモートブランチを削除する](git/delete_remote_branch)
 - [Gitトラブルシューティング](git/troubleshoot)
 
-## misc
+## WeeChat
 
-### WeeChat
-
-- [ニックネームの一覧を隠す](hidden_nicklist)
-- [入力欄の行数を増やす](change_input_size)
+- [ニックネームの一覧を隠す](weechat/hidden_nicklist)
+- [入力欄の行数を増やす](weechat/change_input_size)
