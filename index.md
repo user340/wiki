@@ -19,6 +19,7 @@
 ## FreeBSD
 
 - [Bhyveの仮想ディスク容量を増やす](freebsd/extend_disk_size)
+- [RHEL系OSでUEFIブートができないとき](freebsd/when_cannot_uefi_boot)
 
 ## GNU/Linux
 
