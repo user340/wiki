@@ -12,3 +12,10 @@
 
 - [リモートブランチを削除する](git/delete_remote_branch)
 - [Gitトラブルシューティング](git/troubleshoot)
+
+## misc
+
+### WeeChat
+
+- [ニックネームの一覧を隠す](hidden_nicklist)
+- [入力欄の行数を増やす](change_input_size)
