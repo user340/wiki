@@ -23,6 +23,8 @@
 
 ## GNU/Linux
 
+- [ISOイメージをマウントする](linux/mount_iso)
+
 ### Docker
 
 - [Dockerをroot権限なしで動かす](docker/without_root)
@@ -41,3 +43,7 @@
 ## VimWiki
 
 - [TOCを生成する](vimwiki/gen_toc)
+
+## AWS
+
+- [IAMパスワード変更とMFA](aws/iam_mfa)
