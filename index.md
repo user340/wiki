@@ -5,7 +5,10 @@
         - [GNU/Linux](#GNU/Linux)
             - [Docker](#GNU/Linux#Docker)
         - [Git](#Git)
+        - [Python](#Python)
         - [WeeChat](#WeeChat)
+        - [VimWiki](#VimWiki)
+        - [AWS](#AWS)
 
 ## NetBSD
 
@@ -34,6 +37,10 @@
 
 - [リモートブランチを削除する](git/delete_remote_branch)
 - [Gitトラブルシューティング](git/troubleshoot)
+
+## Python
+
+- [pipenv](python/pipenv)
 
 ## WeeChat
 
