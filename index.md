@@ -38,6 +38,10 @@
 - [リモートブランチを削除する](git/delete_remote_branch)
 - [Gitトラブルシューティング](git/troubleshoot)
 
+## C言語
+
+- [C言語のlanguage serverを使う](clang/c-language-server)
+
 ## Python
 
 - [pipenv](python/pipenv)
