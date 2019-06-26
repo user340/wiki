@@ -5,6 +5,7 @@
         - [GNU/Linux](#GNU/Linux)
             - [Docker](#GNU/Linux#Docker)
         - [Git](#Git)
+        - [C言語](#C言語)
         - [Python](#Python)
         - [WeeChat](#WeeChat)
         - [VimWiki](#VimWiki)
@@ -41,6 +42,7 @@
 ## C言語
 
 - [C言語のlanguage serverを使う](clang/c-language-server)
+- [GNU globalとvimでコードを読みやすくする](clang/global)
 
 ## Python
 
