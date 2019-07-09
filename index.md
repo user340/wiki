@@ -10,6 +10,7 @@
         - [WeeChat](#WeeChat)
         - [VimWiki](#VimWiki)
         - [AWS](#AWS)
+        - [Tips](#Tips)
 
 ## NetBSD
 
@@ -61,3 +62,8 @@
 ## AWS
 
 - [IAMパスワード変更とMFA](aws/iam_mfa)
+
+## Tips
+
+- [rxvt unicode](tips/rxvt-unicode)
+- [zsh](tips/zsh)
