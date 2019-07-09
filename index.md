@@ -30,6 +30,10 @@
 
 - [ISOイメージをマウントする](linux/mount_iso)
 
+## HP-UX
+
+- [depotパッケージをインストールする](hpux/depot)
+
 ### Docker
 
 - [Dockerをroot権限なしで動かす](docker/without_root)
