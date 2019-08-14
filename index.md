@@ -7,6 +7,7 @@
         - [Git](#Git)
         - [C言語](#C言語)
         - [Python](#Python)
+        - [MariaDB](#MariaDB)
         - [WeeChat](#WeeChat)
         - [VimWiki](#VimWiki)
         - [AWS](#AWS)
@@ -53,6 +54,10 @@
 ## Python
 
 - [pipenv](python/pipenv)
+
+## MariaDB
+
+- [ヘッダのみを表示する](mariadb/show_columns)
 
 ## WeeChat
 
