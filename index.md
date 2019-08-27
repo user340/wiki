@@ -49,6 +49,7 @@
 
 - [リモートブランチを削除する](git/delete_remote_branch)
 - [ブランチ名を変更する](git/rename_branch)
+- [ソースtarballを作成する](git/git-archive)
 - [Gitトラブルシューティング](git/troubleshoot)
 
 ## C言語
