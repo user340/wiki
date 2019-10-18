@@ -7,3 +7,7 @@
 1. URL欄に `about:config` と入力しEnter
 2. 文字列型の設定値を新規作成する（右クリックする）。名前は `general.useragent.override` で、値はたとえば `Mozilla/5.0 (X11; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0 ` のようにLinuxであるかのように偽装すればいい。値が適当だとOutlook以外の、UserAgentを見てなにかしらの処理をおこなうJavaScriptが動くページで弾かれる可能性がある。
 3. Outlookに再びアクセスする。
+
+なお、Outlookのユーザフォーラムにも既に問題は報告されているようだ。
+
+[How can we improve Outlook on the web?](https://outlook.uservoice.com/forums/907141/suggestions/36851050)
