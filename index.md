@@ -42,6 +42,10 @@
 
 - [インストールされているものと同じバージョンのパッケージをインストールする](rpm/force_install)
 
+## Windows
+
+- [WSL1上のSSHがハングするとき](when_hang_ssh_on_wsl1)
+
 ## HP-UX
 
 - [depotパッケージをインストールする](hpux/depot)
