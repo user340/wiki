@@ -55,6 +55,7 @@
 - [リモートブランチを削除する](git/delete_remote_branch)
 - [ブランチ名を変更する](git/rename_branch)
 - [ソースtarballを作成する](git/git-archive)
+- [別々のリポジトリを一つに統合する](merge_disperse_repositories)
 - [Gitトラブルシューティング](git/troubleshoot)
 
 ## C言語
