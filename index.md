@@ -46,6 +46,7 @@
 ## Windows
 
 - [WSL1上のSSHがハングするとき](when_hang_ssh_on_wsl1)
+- [ストアからダウンロードしたアプリを全画面表示にする](windows/full_screen_for_app)
 
 ## HP-UX
 
