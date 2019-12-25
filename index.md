@@ -32,6 +32,7 @@
 
 - [ISOイメージをマウントする](linux/mount_iso)
 - [virshの使い方](linux/virsh)
+- [Amazon Linux 2をオンプレミスで実行する](linux/amazon_linux2_on_premises)
 
 ### Docker
 
