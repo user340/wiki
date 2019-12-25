@@ -59,7 +59,7 @@
 - [ソースtarballを作成する](git/git-archive)
 - [別々のリポジトリを一つに統合する](git/merge_disperse_repositories)
 - [untrackedなファイルもdiffに含める](git/diff_for_untracked)
-- [Gitトラブルシューティング](git/troubleshoot)
+- [git pullができないとき](git/troubleshoot_about_git_pull)
 
 ## C言語
 

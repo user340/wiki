@@ -1,6 +1,4 @@
-# Gitトラブルシューティング
-
-## git pullができないとき
+# git pullができないとき
 
 ```
 $ git pull
