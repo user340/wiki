@@ -43,6 +43,7 @@
 ### RPM
 
 - [インストールされているものと同じバージョンのパッケージをインストールする](rpm/force_install)
+- [git centos orgからチェックアウトしたパッケージをビルドする](rpm/using_git_centos_org)
 
 ## Windows
 
