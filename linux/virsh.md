@@ -2,7 +2,8 @@
 
 ## Red Hatによるドキュメント
 
-https://access.redhat.com/documentation/ja-jp/red_hat_enterprise_linux/5/html/virtualization/chap-virtualization-managing_guests_with_virsh
+- [第22章 virsh でゲストを管理](https://access.redhat.com/documentation/ja-jp/red_hat_enterprise_linux/5/html/virtualization/chap-virtualization-managing_guests_with_virsh)
+- [3.2. virt-install を使用したゲストの作成](https://access.redhat.com/documentation/ja-jp/red_hat_enterprise_linux/7/html/virtualization_deployment_and_administration_guide/sect-guest_virtual_machine_installation_overview-creating_guests_with_virt_install)
 
 ## 早見表
 
@@ -11,7 +12,8 @@ https://access.redhat.com/documentation/ja-jp/red_hat_enterprise_linux/5/html/vi
 | VMの一覧を表示する | `virsh list`            |
 | VMを起動する       | `virsh start <VM名>`    |
 | VMを削除する       | `virsh undefine <VM名>` |
-| VMの構成を編集する | `virsh edit <VM名`      |
+| VMの構成を編集する | `virsh edit <VM名>`     |
+| VMを複製する       | `virt-clone`            |
 
 ## VM一覧の取得
 
@@ -42,7 +44,7 @@ $ sudo virsh list
 $ sudo virsh start <VM名>
 ```
 
-## VMのクローン
+## VMの複製
 
 `clone` コマンドに適宜オプションを渡して実行する。
 
@@ -71,3 +73,5 @@ $ sudo virsh undefine --remove-all-storage <VM名>
 ```
 $ sudo virsh edit <VM名>
 ```
+
+## 既存のインストール済みディスクからVMを作成する
