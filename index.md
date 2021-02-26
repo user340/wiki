@@ -104,3 +104,4 @@
 - [rxvt unicode](tips/rxvt-unicode)
 - [zsh](tips/zsh)
 - [freerdp](tips/freerdp)
+- [patch](tips/patch)
