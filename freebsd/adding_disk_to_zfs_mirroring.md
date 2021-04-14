@@ -4,6 +4,8 @@
 2. `dmesg` などでデバイス名を確認する。
 3. `zpool attach` でプールにデバイスを追加する。追加後、自動的にミラーリングされる。
 
+Rootをミラーリングする場合はこれより複雑になる。この方法は最後に述べる。
+
 ## プールの確認方法
 
 ### zpool list -- プールを一覧表示する
@@ -66,3 +68,49 @@ $ zpool attach zshare ada1 ada2
 ```
 
 `zpool attach` してからミラーリングが完了するには時間がかかる。ミラーリングの経過は `zpool status` で確認できる。
+
+## ZFSのrootをミラーリングする
+
+1. ディスクを追加する。
+2. 追加したディスクにGPTを作る。
+3. Rootのディスクと同じようにGPTジオメトリを作る。
+4. `zpool attach` でプールにパーティションを追加する。追加後、自動的にミラーリングされる。
+5. 新しいディスクにブートコードを書き込む。
+
+### 例
+
+rootの `ada0` は次のようなジオメトリになっている。
+
+```
+$ gpart show ada0
+=>       40  976773088  ada0  GPT  (466G)
+         40     409600     1  efi  (200M)
+     409640       1024     2  freebsd-boot  (512K)
+     410664        984        - free -  (492K)
+     411648    4194304     3  freebsd-swap  (2.0G)
+    4605952  972167168     4  freebsd-zfs  (464G)
+  976773120          8        - free -  (4.0K)
+```
+
+`ada3` を追加したとして、同じようにジオメトリを作る。
+
+```
+# gpart create -s gpt ada3
+# gpart add -t efi -s 200M ada3
+# gpart add -t freebsd-boot -s 512k ada3
+# gpart add -t freebsd-swap -s 2G -b 411648 ada3
+# gpart add -t freebsd-zfs -s 474691M ada3
+```
+
+`freebsd-swap` パーティションを作っているとき、
+開始セクタを指定して `ada0` と同じく `ada3p2` と `ada3p3` の間に空き領域を作っている点に注意。
+
+また、 `freebsd-zfs` パーティションを作っているときには
+`gpart list ada0` で得られた `ada0p4` の `Mediasize` をもとにMB単位で
+大きさを指定している点に注意。 `-s 464GB` だとディスク領域が足りないとのエラーが出た。
+
+最後にブートコードを書き込む。
+
+```
+# gpart bootcode -b /boot/pmbr -p /boot/gptzfsboot -i 1 ada3
+```
