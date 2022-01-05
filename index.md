@@ -30,6 +30,7 @@
 - [RHEL系OSでUEFIブートができないとき](freebsd/when_cannot_uefi_boot)
 - [FirefoxでWeb版Outlook Mail Calenderにアクセスすると軽量モードしか使えない問題を解決する。](freebsd/outlook_on_firefox)
 - [ZFSミラーリング用にディスクを追加する](freebsd/adding_disk_to_zfs_mirroring)
+- [オーディオデバイスを切り替える](freebsd/choose_audio_device)
 
 ## GNU/Linux
 
