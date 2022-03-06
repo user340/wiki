@@ -18,6 +18,7 @@
 ## NetBSD
 
 - [ノートPCのディスプレイ輝度を変更する](netbsd/change_brightness)
+- [インストールメディア作成についてのメモ](netbsd/about_installer)
 
 ## pkgsrc
 
